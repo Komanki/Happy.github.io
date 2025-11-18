@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Happy Birthday!</title>
+        <style>
+          body  {background-color:hsl(350, 100%, 90%);>
+            .glow {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  text-shadow: 
+      0 0 5px #fff,
+      0 0 10px #ff00ff,
+      0 0 20px #ff00ff,
+      0 0 40px #ff00ff;
+}
+ .magic-btn {
+        padding: 20px 50px;
+        font-size: 28px;
+        font-weight: bold;
+        color: white;
+        background: linear-gradient(45deg, #ff00ff, #00ccff);
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        outline: none;
+        text-align: center;
+
+        /* Glow effect */
+        box-shadow: 0 0 15px #ff00ff, 0 0 30px #00ccff;
+        transition: 0.3s ease;
+        
+        /* Pulse animation */
+        animation: pulse 1.5s infinite;
+    }
+
+    /* Hover animation */
+    .magic-btn:hover {
+        transform: scale(1.15);
+        box-shadow: 0 0 25px #ff00ff, 0 0 50px #00ccff;
+    }
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.08); }
+        100% { transform: scale(1); }
+    }
+    .magic {
+        padding: 20px 50px;
+        font-size: 28px;
+        font-weight: bold;
+        color: white;
+        background: linear-gradient(45deg, #ff00ff, #00ccff);
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        outline: none;
+        
+
+        /* Glow effect */
+        box-shadow: 0 0 15px #ff00ff, 0 0 30px #00ccff;
+        transition: 0.3s ease;
+        
+        /* Pulse animation */
+        animation: pulse 1.5s infinite;
+    }
+
+    /* Hover animation */
+    .magic-btn:hover {
+        transform: scale(1.15);
+        box-shadow: 0 0 25px #ff00ff, 0 0 50px #00ccff;
+    }
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.08); }
+        100% { transform: scale(1); }
+    }
+   
+    
+        </style>
+
+    </head>
+    <body>
+        <h1  class="glow" align="center">Happy Birthday!</h1>
+        
+        <button class="magic-btn"  onclick="myFunction()">Click me</button>
+        
+
+<p  class="glow" align="center" id="demo"></p>
+
+    
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Happy Birthday To You My Dear!";
+}
+
+
+
+</script>
+
+<a  class="magic" href="Happy Birthday2.html">NEXT</a>
+        
+    </body>
+</html>
